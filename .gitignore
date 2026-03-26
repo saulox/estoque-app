@@ -1,0 +1,21 @@
+# Banco local
+estoque.db
+*.db
+
+# Credenciais — NUNCA subir para o GitHub
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
